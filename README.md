@@ -43,11 +43,11 @@ The data is only available on the provided hard drive.
 
 How to use the model on the HPC:
 
-First, you must download the conda environment at this path:
+First, you must download the conda environment in the har drive at environment.yml:
 
 Then, you must import the .yml file to the HPC home folder \\hpc-fs\home.
 
-Then you must type: conda env create -f mindbridge-history.yml
+Then you must type: conda env create -f environment.yml
 
 Your conda environment is created!
 
