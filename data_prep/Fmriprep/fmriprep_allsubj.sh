@@ -4,7 +4,7 @@
 
 #User inputs:
 # bids_root_dir="C:\Users\Rémi\Documents\FMRI experiment\FINAL FOLDER\BOLD_DATA\BIDS"
-bids_root_dir="G:/BOLD_DATA_2/BIDS"
+bids_root_dir="D:\fMRI_FINAL_FOLDER\BOLD_DATA\BOLD_DATA_2\BIDS"
 
 nthreads=8
 mem=16 #gb
@@ -16,13 +16,10 @@ container=docker #docker or singularity
 mem=`echo "${mem//[!0-9]/}"` #remove gb at end
 mem_mb=`echo $(((mem*1000)-5000))` #reduce some memory for buffer space during pre-processing
 
-#export TEMPLATEFLOW_HOME=$HOME/.cache/templateflow
-# export FS_LICENSE="C:\Users\hennecol\Documents\FMRI experiment\FINAL FOLDER\2 analysis and first preprocessing\texte.txt"
-export FS_LICENSE="C:\Users\Rémi\Desktop\australie\codes\license.txt"
-export PATH="/c/Users/Rémi/AppData/Local/Programs/Python/Python312/:$PATH"
+export FS_LICENSE="D:\fMRI_FINAL_FOLDER\opt\freesurfer\license.txt"
 export BIDS_ROOT_DIR="$bids_root_dir"
 
-# Boucle sur les sujets de 2 à 155
+# Omly for one subject, adaptable for more
 for i in 3
 do
   subj="0${i}"
@@ -32,7 +29,7 @@ do
     --participant-label $subj \
     --skip-bids-validation \
     --md-only-boilerplate \
-    --fs-license-file "C:\Users\Rémi\Desktop\australie\codes\license.txt" --fs-no-reconall \
+    --fs-license-file "D:\fMRI_FINAL_FOLDER\opt\freesurfer\license.txt" --fs-no-reconall \
     --output-spaces MNI152NLin2009cAsym:res-2 \
     --nthreads $nthreads \
     --stop-on-first-crash \

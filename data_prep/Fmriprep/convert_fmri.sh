@@ -2,15 +2,17 @@
 
 # === CONFIGURATION A MODIFIER ===
 
+# d is the name of the herd drive
+
 # Chemin absolu vers votre dataset BIDS
-BIDS_DIR="/mnt/c/Users/Rémi/Desktop/CentraleSupelec/Cours/stage/australie/ds000228"
+BIDS_DIR="/mnt/d/ds000228"
 
 # Chemin absolu vers le dossier de sortie
-OUT_DIR="/mnt/g/fMRI_FINAL_FOLDER/fmriprep_out"
+OUT_DIR="/mnt/d/fMRI_FINAL_FOLDER/fmriprep_out"
 
 # Chemin vers votre fichier de licence FreeSurfer
-FS_LICENSE="/mnt/g/fMRI_FINAL_FOLDER/opt/freesurfer/license.txt"
-export FS_LICENSE="/mnt/g/fMRI_FINAL_FOLDER/opt/freesurfer/license.txt"
+FS_LICENSE="/mnt/d/fMRI_FINAL_FOLDER/opt/freesurfer/license.txt"
+export FS_LICENSE="/mnt/d/fMRI_FINAL_FOLDER/opt/freesurfer/license.txt"
 
 # Nombre de threads à utiliser (adapter selon votre machine)
 THREADS=4
