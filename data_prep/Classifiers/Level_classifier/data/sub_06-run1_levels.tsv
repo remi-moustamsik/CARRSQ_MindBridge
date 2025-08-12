@@ -1,0 +1,72 @@
+type	onset	levels	duration	nb_images
+control	0.0		7.0	7
+Video	7.0	1.0	24.67	25
+control	31.67		8.0	8
+Video	39.67	1.0	13.83	14
+control	53.5		8.0	8
+Video	61.5	4.0	6.4	6
+control	67.9		8.0	8
+Video	75.9	2.0	13.58	14
+control	89.48		8.0	8
+Video	97.48	3.0	17.19	17
+control	114.67		8.0	8
+Video	122.67	2.0	7.31	7
+control	129.98		8.0	8
+Video	137.98	4.0	10.55	11
+control	148.53		8.0	8
+Video	156.53	3.0	17.02	17
+control	173.55		8.0	8
+Video	181.55	2.0	24.21	24
+control	205.76		8.0	8
+Video	213.76	2.0	24.74	25
+control	238.5		8.0	8
+Video	246.5	4.0	7.16	7
+control	253.66		8.0	8
+Video	261.66	4.0	6.78	7
+control	268.44		8.0	8
+Video	276.44	1.0	18.94	19
+control	295.38		8.0	8
+Video	303.38	4.0	9.83	10
+control	313.21		8.0	8
+Video	321.21	4.0	21.52	21
+control	342.73		8.0	8
+Video	350.73	4.0	10.47	11
+control	361.2		8.0	8
+Video	369.2	4.0	8.46	8
+control	377.66		8.0	8
+Video	385.66	1.0	21.2	21
+control	406.86		8.0	8
+Video	414.86	4.0	8.57	9
+control	423.43		8.0	8
+Video	431.43	1.0	23.08	23
+control	454.51		8.0	8
+Video	462.51	4.0	9.68	10
+control	472.19		8.0	8
+Video	480.19	4.0	10.41	10
+control	490.6		8.0	8
+Video	498.6	2.0	13.47	14
+control	512.07		8.0	8
+Video	520.07	4.0	10.68	10
+control	530.75		8.0	8
+Video	538.75	1.0	17.91	18
+control	556.66		8.0	8
+Video	564.66	4.0	9.34	9
+control	574.0		8.0	8
+Video	582.0	1.0	20.54	21
+control	602.54		8.0	8
+Video	610.54	4.0	7.18	7
+control	617.72		8.0	8
+Video	625.72	1.0	18.32	19
+control	644.04		8.0	8
+Video	652.04	1.0	15.67	15
+control	667.71		8.0	8
+Video	675.71	4.0	9.02	9
+control	684.73		8.0	8
+Video	692.73	4.0	10.07	10
+control	702.8		8.0	8
+Video	710.8	4.0	13.9	14
+control	724.7		8.0	8
+Video	732.7	2.0	19.73	20
+control	752.43		8.0	8
+Video	760.43	2.0	19.07	19
+control	779.5		8.0	8

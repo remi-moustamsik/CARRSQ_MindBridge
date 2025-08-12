@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Run convert_fmri.sh
+./convert_fmri.sh
+
+# Run convert_nsd.sh
+./convert_nsd.sh
+
+# Run selected Jupyter notebooks for all selected files
+# Example: run all notebooks in the current directory whose names match a pattern
+for notebook in $(ls *.ipynb); do
+    jupyter nbconvert --to notebook --execute "$notebook" --inplace
+done
